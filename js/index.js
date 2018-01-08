@@ -1,7 +1,7 @@
 
 const submitButton = document.getElementById("submitButton");
-let inputDate = document.getElementById("inputDate");
-let resultPic = document.getElementById("resultPic");
+const inputDate = document.getElementById("inputDate");
+const resultPic = document.getElementById("resultPic");
 
 submitButton.addEventListener('click', checkDate, false);
 function checkDate(){
