@@ -9,7 +9,6 @@ function checkDate(){
     if (inputDate.value === "01/08"|| inputDate.value === "0108"|| inputDate.value === "01.08"){
         var resultPic = document.getElementById('resultPic');
         resultPic.src = 'img/Arel.jpg';
-        resultPic.res = 'img/Arel.jpg';
     } else {
         var resultPic = document.getElementById('resultPic');
         resultPic.src = 'img/MrChow.jpg';
