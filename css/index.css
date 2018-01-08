@@ -1,0 +1,48 @@
+body {
+  font-family: Microsoft JhengHei;
+  font-size: 20px;
+  background-color: #c48d4e;
+  color: #ffffff; }
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 70px;
+  padding: 15px 15px; }
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap; }
+  .container .submit-button {
+    height: 30px; }
+
+.container .submit-button {
+  color: #ffffff;
+  background-color: #c48d4e;
+  border: solid #ffffff 1px;
+  margin-bottom: 25px;
+  padding: 8px;
+  width: 178px;
+  height: 46px;
+  display: block;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+  -webkit-box-shadow: 3px 3px 3px 1px #935452;
+  box-shadow: 3px 3px 3px 1px #935452; }
+
+.container .result-pic {
+  width: 20vw;
+  border: solid #ffffff 1px;
+  border-radius: 12px; }
