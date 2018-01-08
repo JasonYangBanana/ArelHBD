@@ -5,7 +5,6 @@ const resultPic = document.getElementById("resultPic");
 
 submitButton.addEventListener('click', checkDate, false);
 function checkDate(){
-
     if (inputDate.value === "01/08"|| inputDate.value === "0108"|| inputDate.value === "01.08"){
         resultPic.src = 'img/Arel.jpg';
     } else {
@@ -13,11 +12,3 @@ function checkDate(){
     }
     return false;
 }
-
-
-
-
-
-/* function myFunction() {
-    document.getElementById("submitButton").click();
-} */
